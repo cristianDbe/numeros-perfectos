@@ -1,7 +1,7 @@
 # Documentación de Escalabilidad de la Aplicación
 
 ## Descripción General
-La aplicación desarrollada tiene como objetivo determinar los números naturales perfectos dentro de un rango dado. Esta solución frontend opera principalmente en el dispositivo del usuario.
+La aplicación desarrollada tiene como objetivo determinar los números naturales perfectos dentro de un rango dado. Esta solución se implementó de manera frontend con boostrap, el código basado en html y javascript, dicha aplicación opera principalmente en el dispositivo del usuario.
 
 ## Detalles
 En cuanto a la complejidad en el código, se simplificó de manera que no ocurran procesos extras, especialmente en el ciclo para calcular si el número es perfecto. Aquí solo se recorre hasta la mitad del número, dado que es sabido que los divisores solo pueden llegar hasta esta parte, evitando que la aplicación siga corriendo innecesariamente.
